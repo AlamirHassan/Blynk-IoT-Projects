@@ -17,7 +17,6 @@ timer = BlynkTimer()
 def blynk_connected():
     print("Hi, You have Connected to New Blynk2.0")
     print(".......................................................")
-    print("................... By SME Dehradun ...................")
     time.sleep(2)
 
 # Function to collect data from sensor & send it to Server
