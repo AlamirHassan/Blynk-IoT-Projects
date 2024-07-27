@@ -10,7 +10,6 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(led1, GPIO.OUT)
 GPIO.setup(led2, GPIO.OUT)
 
-x = 20
 # Initialize Blynk
 blynk = BlynkLib.Blynk(BLYNK_AUTH_TOKEN)
 
