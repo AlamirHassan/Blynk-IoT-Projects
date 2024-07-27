@@ -1,7 +1,3 @@
-"""
-This code i Belogs to SME Dehradun Firm. For any query, mail us at schematicslab@gmail.com 
-"""
-
 import BlynkLib
 import RPi.GPIO as GPIO
 from BlynkTimer import BlynkTimer
