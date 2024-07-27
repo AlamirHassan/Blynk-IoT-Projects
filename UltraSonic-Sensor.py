@@ -23,7 +23,7 @@ def blynk_connected():
 def send_distance_data():
     distance = sensor.distance * 100  # Convert to centimeters
     print(f"Distance = {distance:.1f} cm")
-    blynk.virtual_write(0, distance)  # Sending distance data to virtual pin V2
+    blynk.virtual_write(0, distance)  # Sending distance data to virtual pin V0
     print("Distance sent to New Blynk Server!")
 
 timer.set_interval(5, send_distance_data)
